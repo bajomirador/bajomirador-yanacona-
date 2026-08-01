@@ -42,28 +42,9 @@
     "intro": "Estas fotos son ilustrativas y pueden reemplazarse desde el panel de administración por imágenes reales de la comunidad.",
     "items": [
       {
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Bosque tropical frondoso",
-        "title": "Bosque y conservación",
-        "description": "Protección de cobertura boscosa y conectividad ecológica."
-      },
-      {
-        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Río y paisaje natural",
-        "title": "Fuentes hídricas",
-        "description": "Cuidado de nacederos, quebradas y áreas importantes para el agua."
-      },
-      {
-        "image": "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Reunión comunitaria",
-        "title": "Participación comunitaria",
-        "description": "Trabajo conjunto con autoridades, mujeres, jóvenes y mayores."
-      },
-      {
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80",
-        "alt": "Plantas medicinales",
-        "title": "Saberes ancestrales",
-        "description": "Fortalecimiento de la medicina tradicional y el conocimiento propio."
+        "image": "/images/uploads/img_2614.jpg",
+        "title": "comunidad ",
+        "description": "espacios culturales "
       }
     ]
   },
