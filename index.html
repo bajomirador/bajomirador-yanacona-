@@ -43,9 +43,9 @@
       <div class="hero-overlay"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">Orito, Putumayo · Amazonía colombiana</span>
-          <h1>Territorio, cultura y vida para las futuras generaciones</h1>
-          <p>
+          <span class="eyebrow" id="hero-eyebrow">Orito, Putumayo · Amazonía colombiana</span>
+          <h1 id="hero-title">Territorio, cultura y vida para las futuras generaciones</h1>
+          <p id="hero-description">
             Somos la Comunidad Indígena Bajo Mirador Yanacona. Trabajamos por la
             protección del agua, la biodiversidad, los saberes ancestrales y el
             fortalecimiento del gobierno propio.
@@ -59,7 +59,7 @@
         <aside class="hero-card" aria-label="Datos principales">
           <span class="mini-label">Nuestra prioridad</span>
           <h2>Proteger el territorio y sus fuentes de vida</h2>
-          <div class="stat-grid">
+          <div class="stat-grid" id="stat-grid">
             <div><strong>18 ha</strong><span>territorio comunitario</span></div>
             <div><strong>5 ha</strong><span>área prioritaria de conservación</span></div>
             <div><strong>101</strong><span>integrantes de la comunidad</span></div>
@@ -73,16 +73,16 @@
       <div class="container two-columns">
         <div>
           <span class="section-kicker">Quiénes somos</span>
-          <h2>Una comunidad que cuida su identidad y su territorio</h2>
+          <h2 id="about-title">Una comunidad que cuida su identidad y su territorio</h2>
         </div>
         <div class="lead-copy">
-          <p>
+          <p id="about-p1">
             La Comunidad Indígena Bajo Mirador Yanacona está ubicada en el
             municipio de Orito, Putumayo. Nuestro proceso comunitario une
             gobierno propio, participación, conservación ambiental, educación,
             cultura y bienestar colectivo.
           </p>
-          <p>
+          <p id="about-p2">
             Promovemos la participación de autoridades, mayores, mujeres,
             jóvenes, niñez y Guardia Indígena en las decisiones que afectan el
             presente y el futuro de la comunidad.
@@ -128,15 +128,15 @@
 
         <div>
           <span class="section-kicker">Nuestro territorio</span>
-          <h2>Un espacio pequeño con un gran valor para la vida</h2>
-          <p>
+          <h2 id="territory-title">Un espacio pequeño con un gran valor para la vida</h2>
+          <p id="territory-description">
             El territorio comunitario conserva bosque, vegetación nativa, ojos
             de agua y lugares importantes para la fauna. La comunidad busca
             fortalecer su protección y avanzar en la ampliación territorial
             para asegurar espacios suficientes para la conservación, la cultura
             y la pervivencia.
           </p>
-          <ul class="check-list">
+          <ul class="check-list" id="territory-list">
             <li>Protección permanente de fuentes de agua.</li>
             <li>Monitoreo comunitario de biodiversidad.</li>
             <li>Restauración de zonas degradadas.</li>
@@ -151,12 +151,12 @@
       <div class="container section-heading">
         <div>
           <span class="section-kicker">Galería</span>
-          <h2>Imágenes que representan nuestro trabajo y territorio</h2>
+          <h2 id="gallery-title">Imágenes que representan nuestro trabajo y territorio</h2>
         </div>
-        <p>Estas fotos son ilustrativas y luego pueden reemplazarse por imágenes reales de la comunidad.</p>
+        <p id="gallery-intro">Estas fotos son ilustrativas y luego pueden reemplazarse por imágenes reales de la comunidad.</p>
       </div>
 
-      <div class="container photo-grid">
+      <div class="container photo-grid" id="photo-grid">
         <figure class="photo-card">
           <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80" alt="Bosque tropical frondoso" />
           <figcaption>
@@ -195,12 +195,12 @@
       <div class="container section-heading">
         <div>
           <span class="section-kicker">Líneas de trabajo</span>
-          <h2>Proyectos que estamos impulsando</h2>
+          <h2 id="projects-title">Proyectos que estamos impulsando</h2>
         </div>
-        <p>Iniciativas comunitarias en formulación, gestión y búsqueda de aliados.</p>
+        <p id="projects-intro">Iniciativas comunitarias en formulación, gestión y búsqueda de aliados.</p>
       </div>
 
-      <div class="container project-grid">
+      <div class="container project-grid" id="project-grid">
         <article class="project-card featured">
           <span class="tag">Prioridad territorial</span>
           <h3>Protección de bosques y fuentes hídricas</h3>
@@ -290,8 +290,8 @@
       <div class="container alliance-box">
         <div>
           <span class="section-kicker">Alianzas</span>
-          <h2>Buscamos organizaciones que quieran proteger la Amazonía con nosotros</h2>
-          <p>
+          <h2 id="alliances-title">Buscamos organizaciones que quieran proteger la Amazonía con nosotros</h2>
+          <p id="alliances-description">
             Invitamos a entidades públicas, universidades, fundaciones,
             empresas, cooperación internacional y organizaciones comunitarias
             a construir soluciones respetuosas de la autonomía indígena.
@@ -305,14 +305,14 @@
       <div class="container contact-grid">
         <div>
           <span class="section-kicker">Contacto</span>
-          <h2>Hablemos de cooperación y trabajo comunitario</h2>
-          <p>
+          <h2 id="contact-title">Hablemos de cooperación y trabajo comunitario</h2>
+          <p id="contact-description">
             Completa el formulario. Al enviarlo se abrirá tu aplicación de
             correo con el mensaje preparado.
           </p>
 
           <div class="contact-info">
-            <div><span>📍</span><p><strong>Ubicación</strong>Orito, Putumayo, Colombia</p></div>
+            <div><span>📍</span><p><strong>Ubicación</strong><span id="public-location">Orito, Putumayo, Colombia</span></p></div>
             <div><span>✉️</span><p><strong>Correo</strong><span id="public-email">comunidad@ejemplo.org</span></p></div>
             <div><span>📱</span><p><strong>WhatsApp</strong><span id="public-phone">Agregar número oficial</span></p></div>
           </div>
@@ -351,7 +351,7 @@
           <small>Territorio, cultura y vida</small>
         </span>
       </div>
-      <p>© <span id="year"></span> Comunidad Indígena Bajo Mirador Yanacona.</p>
+      <p>© <span id="year"></span> Comunidad Indígena Bajo Mirador Yanacona. · <a class="admin-link" href="/admin/">Administrar</a></p>
     </div>
   </footer>
 

@@ -1,0 +1,99 @@
+backend:
+  name: github
+  repo: bajomirador/bajomirador-yanacona-
+  branch: main
+
+locale: es
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Página web"
+    files:
+      - name: "principal"
+        label: "Contenido principal"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Portada"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Texto superior", name: "eyebrow", widget: "string" }
+              - { label: "Título principal", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - label: "Datos principales"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Valor", name: "value", widget: "string" }
+                  - { label: "Descripción", name: "label", widget: "string" }
+
+          - label: "Quiénes somos"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Primer párrafo", name: "paragraph_1", widget: "text" }
+              - { label: "Segundo párrafo", name: "paragraph_2", widget: "text" }
+
+          - label: "Territorio"
+            name: "territory"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Prioridades", name: "priorities", widget: "list", field: { label: "Prioridad", name: "item", widget: "string" } }
+
+          - label: "Galería"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Introducción", name: "intro", widget: "text" }
+              - label: "Fotografías"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Fotografía", name: "image", widget: "image" }
+                  - { label: "Texto alternativo", name: "alt", widget: "string", required: false }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descripción", name: "description", widget: "text" }
+
+          - label: "Proyectos"
+            name: "projects"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Introducción", name: "intro", widget: "text" }
+              - label: "Lista de proyectos"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Categoría", name: "tag", widget: "string" }
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descripción", name: "description", widget: "text" }
+                  - { label: "Destacado", name: "featured", widget: "boolean", default: false, required: false }
+                  - { label: "Texto del enlace", name: "link_text", widget: "string", required: false }
+                  - { label: "Dirección del enlace", name: "link_url", widget: "string", required: false }
+
+          - label: "Alianzas"
+            name: "alliances"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+
+          - label: "Contacto"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Ubicación", name: "location", widget: "string" }
+              - { label: "Correo", name: "email", widget: "string" }
+              - { label: "WhatsApp", name: "whatsapp", widget: "string" }

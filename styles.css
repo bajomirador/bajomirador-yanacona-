@@ -274,3 +274,13 @@ button, input, textarea { font: inherit; }
   .alliance-box { padding: 30px 24px; }
   .footer-grid { flex-direction: column; align-items: flex-start; }
 }
+
+.admin-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: .8;
+}
+.admin-link:hover {
+  opacity: 1;
+}

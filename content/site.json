@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "eyebrow": "Orito, Putumayo · Amazonía colombiana",
+    "title": "Territorio, cultura y vida para las futuras generaciones",
+    "description": "Somos la Comunidad Indígena Bajo Mirador Yanacona. Trabajamos por la protección del agua, la biodiversidad, los saberes ancestrales y el fortalecimiento del gobierno propio.",
+    "stats": [
+      {
+        "value": "18 ha",
+        "label": "territorio comunitario"
+      },
+      {
+        "value": "5 ha",
+        "label": "área prioritaria de conservación"
+      },
+      {
+        "value": "101",
+        "label": "integrantes de la comunidad"
+      },
+      {
+        "value": "2004",
+        "label": "año de creación"
+      }
+    ]
+  },
+  "about": {
+    "title": "Una comunidad que cuida su identidad y su territorio",
+    "paragraph_1": "La Comunidad Indígena Bajo Mirador Yanacona está ubicada en el municipio de Orito, Putumayo. Nuestro proceso comunitario une gobierno propio, participación, conservación ambiental, educación, cultura y bienestar colectivo.",
+    "paragraph_2": "Promovemos la participación de autoridades, mayores, mujeres, jóvenes, niñez y Guardia Indígena en las decisiones que afectan el presente y el futuro de la comunidad."
+  },
+  "territory": {
+    "title": "Un espacio pequeño con un gran valor para la vida",
+    "description": "El territorio comunitario conserva bosque, vegetación nativa, ojos de agua y lugares importantes para la fauna. La comunidad busca fortalecer su protección y avanzar en la ampliación territorial para asegurar espacios suficientes para la conservación, la cultura y la pervivencia.",
+    "priorities": [
+      "Protección permanente de fuentes de agua.",
+      "Monitoreo comunitario de biodiversidad.",
+      "Restauración de zonas degradadas.",
+      "Adquisición y conservación de predios estratégicos."
+    ]
+  },
+  "gallery": {
+    "title": "Imágenes que representan nuestro trabajo y territorio",
+    "intro": "Estas fotos son ilustrativas y pueden reemplazarse desde el panel de administración por imágenes reales de la comunidad.",
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Bosque tropical frondoso",
+        "title": "Bosque y conservación",
+        "description": "Protección de cobertura boscosa y conectividad ecológica."
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Río y paisaje natural",
+        "title": "Fuentes hídricas",
+        "description": "Cuidado de nacederos, quebradas y áreas importantes para el agua."
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Reunión comunitaria",
+        "title": "Participación comunitaria",
+        "description": "Trabajo conjunto con autoridades, mujeres, jóvenes y mayores."
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Plantas medicinales",
+        "title": "Saberes ancestrales",
+        "description": "Fortalecimiento de la medicina tradicional y el conocimiento propio."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos que estamos impulsando",
+    "intro": "Iniciativas comunitarias en formulación, gestión y búsqueda de aliados.",
+    "items": [
+      {
+        "tag": "Prioridad territorial",
+        "title": "Protección de bosques y fuentes hídricas",
+        "description": "Adquisición y conservación permanente de predios con bosque, nacederos y conectividad ecológica, bajo propiedad y manejo indígena.",
+        "featured": true,
+        "link_text": "Conocer y apoyar",
+        "link_url": "#contacto"
+      },
+      {
+        "tag": "Biodiversidad",
+        "title": "Monitoreo comunitario",
+        "description": "Formación de monitores, cartografía participativa, cámaras trampa, registros georreferenciados y protocolo indígena de conservación.",
+        "featured": false
+      },
+      {
+        "tag": "Cultura y salud",
+        "title": "Medicina tradicional",
+        "description": "Espacios de intercambio de saberes y talleres prácticos para fortalecer la preparación y transmisión de conocimientos ancestrales.",
+        "featured": false
+      },
+      {
+        "tag": "Economía circular",
+        "title": "Red Residuos",
+        "description": "Plataforma para conectar comunidades, recicladores y empresas compradoras de materiales aprovechables.",
+        "featured": false
+      }
+    ]
+  },
+  "alliances": {
+    "title": "Buscamos organizaciones que quieran proteger la Amazonía con nosotros",
+    "description": "Invitamos a entidades públicas, universidades, fundaciones, empresas, cooperación internacional y organizaciones comunitarias a construir soluciones respetuosas de la autonomía indígena."
+  },
+  "contact": {
+    "title": "Hablemos de cooperación y trabajo comunitario",
+    "description": "Completa el formulario. Al enviarlo se abrirá tu aplicación de correo con el mensaje preparado.",
+    "location": "Orito, Putumayo, Colombia",
+    "email": "comunidad@ejemplo.org",
+    "whatsapp": "Agregar número oficial"
+  }
+}
